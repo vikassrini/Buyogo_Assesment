@@ -434,11 +434,11 @@ def get_other_analytics():
     return execute_cached_analytics(queries, other_cache)
 
 PDF_FILES = {
-    "Revenue": "revenue_answers.pdf",
-    "Geography": "geo_answers.pdf",
-    "Cancellations": "cancellations_answers.pdf",
-    "Lead Time": "lead_time_answers.pdf",
-    "Other Analytics": "others_analytics_answers.pdf",
+    "Revenue": "data/revenue_answers.pdf",
+    "Geography": "data/geo_answers.pdf",
+    "Cancellations": "data/cancellations_answers.pdf",
+    "Lead Time": "data/lead_time_answers.pdf",
+    "Other Analytics": "data/others_analytics_answers.pdf",
 }
 
 chat_history={}
