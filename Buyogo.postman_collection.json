@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "81b6cafa-2b55-4e06-85b4-e484b2333ae1",
+		"name": "Buyogo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "25116219"
+	},
+	"item": [
+		{
+			"name": "ask llm",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8000/ask?query=Which deposit type has the highest cancellation rate&ground_truth=Non-refundable deposits have the highest cancellation rate at 94.70%",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"ask"
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "Which deposit type has the highest cancellation rate"
+						},
+						{
+							"key": "ground_truth",
+							"value": "Non-refundable deposits have the highest cancellation rate at 94.70%"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "revenue analytics",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "http://localhost:8000/analytics/revenue"
+			},
+			"response": []
+		},
+		{
+			"name": "cancellations analytics",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "http://localhost:8000/analytics/cancellations"
+			},
+			"response": []
+		},
+		{
+			"name": "geographical analytics",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "http://localhost:8000/analytics/geo"
+			},
+			"response": []
+		},
+		{
+			"name": "lead time analytics",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "http://localhost:8000/analytics/lead_time"
+			},
+			"response": []
+		},
+		{
+			"name": "other analytics",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "http://localhost:8000/analytics/others"
+			},
+			"response": []
+		}
+	]
+}
