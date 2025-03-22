@@ -548,7 +548,7 @@ def ask(
         conn.execute(insert_query, {
             "query": query,
             "answer": answer,
-            "score": results['faithfulness']
+            "score": results['faithfulness'][0]
         })
 
     return {
