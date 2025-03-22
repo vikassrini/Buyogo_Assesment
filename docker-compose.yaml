@@ -22,6 +22,17 @@ services:
       ENABLE_API_BASED_MODULES: 'true'
       ENABLE_MODULES: 'text2vec-ollama,generative-ollama'
       CLUSTER_HOSTNAME: 'node1'
+
+  postgres:
+    image: postgres:14-alpine
+    ports:
+      - 5432:5432
+    volumes:
+      - ~/apps/postgres:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_PASSWORD=vikas
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=hotel_data
 volumes:
   weaviate_data:
-...
+  postgres_data:
