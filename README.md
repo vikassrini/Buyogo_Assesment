@@ -68,7 +68,7 @@ ollama pull llama3.2
 ```bash
 python -m venv venv
 source venv/bin/activate   # For Windows: venv\Scripts\activate
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 ### 4. Start Docker Services
