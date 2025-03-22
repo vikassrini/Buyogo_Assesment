@@ -54,11 +54,6 @@ geo_cache = AnalyticsCache()
 lead_time_cache = AnalyticsCache()
 other_cache = AnalyticsCache()
 
-
-
-
-
-
 @app.post("/analytics/revenue")
 def get_revenue_analysis():
     queries = {
@@ -457,9 +452,6 @@ def extract_answers_from_pdfs():
                 "text": answer
             })
     return data
-
-
-
 
 
 # === Connect to Weaviate ===
