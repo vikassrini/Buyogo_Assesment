@@ -92,7 +92,7 @@ db_setup/queries.sql
 2. Insert sample data using:
 
 ```bash
-python db_setup/insert.py
+python db_setup/inserter.py
 ```
 
 ### 6. Start the API Server
