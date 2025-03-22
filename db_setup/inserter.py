@@ -3,7 +3,7 @@ import psycopg2
 from psycopg2.extras import execute_values
 
 # --- Step 1: Load CSV ---
-csv_file_path = "hotel_data_no_true_duplicates.csv"
+csv_file_path = ""db_setup\hotel_data_no_true_duplicates.csv""
 df = pd.read_csv(csv_file_path)
 
 # Convert int columns to proper types if needed
