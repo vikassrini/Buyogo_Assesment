@@ -55,7 +55,7 @@ Follow these steps to get the project running on your local machine:
 ### 1. Install Docker + Ollama
 Ensure both [Docker](https://docs.docker.com/get-started/get-docker/) and [Ollama](https://ollama.com/download) are installed and accessible from your terminal.
 
-### 2️. Pull required LLM models
+### 2. Pull required LLM models
 Download the required models using Ollama:
 
 ```bash
@@ -63,7 +63,7 @@ ollama pull nomic-embed-text
 ollama pull llama3.2
 ```
 
-### 3️. Setup Virtual Environment (Python 3.10+ recommended)
+### 3. Setup Virtual Environment (Python 3.10+ recommended)
 
 ```bash
 python -m venv venv
@@ -71,7 +71,7 @@ source venv/bin/activate   # For Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 4️. Start Docker Services
+### 4. Start Docker Services
 
 ```bash
 docker-compose up -d
@@ -81,7 +81,7 @@ This will start:
 - **PostgreSQL** on port `5432`
 - **Weaviate** on port `8080`
 
-### 5️. Initialize the Database
+### 5. Initialize the Database
 
 1. Open **pgAdmin** (or any DB tool), and run the SQL schema setup from:
 
@@ -95,7 +95,7 @@ db_setup/queries.sql
 python db_setup/insert.py
 ```
 
-### 6️. Start the API Server
+### 6. Start the API Server
 
 ```bash
 uvicorn app:app --reload
@@ -103,7 +103,7 @@ uvicorn app:app --reload
 
 The FastAPI app will now be running at `http://localhost:8000`.
 
-### 7️. Test the APIs
+### 7. Test the APIs
 
 Import the provided **Postman collection** and test the endpoints:
 
