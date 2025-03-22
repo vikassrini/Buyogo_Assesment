@@ -110,7 +110,9 @@ The FastAPI app will now be running at `http://localhost:8000`.
 ### 8. Test the APIs
 
 Import the provided **Postman collection** and test the endpoints:
-
+```json
+https://github.com/vikassrini/Buyogo_Assesment/blob/main/Buyogo.postman_collection.json
+```
 - Make sure to set the base URL to `http://localhost:8000`.
 - You can also use the Swagger UI at `/docs`.
 
