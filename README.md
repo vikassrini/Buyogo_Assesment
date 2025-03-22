@@ -83,7 +83,7 @@ This will start:
 
 ### 5. Initialize the Database
 
-1. Open **pgAdmin** (or any DB tool), and run the SQL schema setup from:
+1. Open **pgAdmin** , and run the SQL schema setup from:
 
 ```sql
 db_setup/queries.sql
@@ -94,8 +94,12 @@ db_setup/queries.sql
 ```bash
 python db_setup/inserter.py
 ```
+### 6. Add Open AI Key to line 22 in app.py
 
-### 6. Start the API Server
+```app.py
+"set_openai_api_key_for_evaluation"
+```
+### 7. Start the API Server
 
 ```bash
 uvicorn app:app --reload
@@ -103,7 +107,7 @@ uvicorn app:app --reload
 
 The FastAPI app will now be running at `http://localhost:8000`.
 
-### 7. Test the APIs
+### 8. Test the APIs
 
 Import the provided **Postman collection** and test the endpoints:
 
