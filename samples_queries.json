@@ -1,0 +1,159 @@
+[
+    {
+      "revenue": {
+        "question": "Which month in 2017 had the highest recorded revenue?",
+        "answer": "August 2017 had the highest recorded revenue with $3,131,402.33."
+      }
+    },
+    {
+      "revenue": {
+        "question": "How did the yearly revenue change from 2015 to 2017?",
+        "answer": "Revenue increased from $4,885,517.06 in 2015 to $15,291,176.01 in 2016, then slightly declined to $14,284,246.24 in 2017."
+      }
+    },
+    {
+      "revenue": {
+        "question": "Which hotel type generated more revenue?",
+        "answer": "City hotels generated more revenue ($18,774,101.54) than resort hotels ($15,686,837.77)."
+      }
+    },
+    {
+      "revenue": {
+        "question": "Which market segment contributed the highest revenue?",
+        "answer": "Online Travel Agencies (OTA) contributed the highest revenue with $22,266,636.88."
+      }
+    },
+    {
+      "revenue": {
+        "question": "What percentage of total revenue came from canceled bookings?",
+        "answer": "Approximately 33% of the total revenue came from canceled bookings."
+      }
+    },
+    {
+      "revenue": {
+        "question": "What was the revenue in July 2017?",
+        "answer": "The revenue in July 2017 was $2,842,012.43."
+      }
+    },
+    {
+        "cancellations": {
+          "question": "What is the overall cancellation rate in the dataset?",
+          "answer": "The overall cancellation rate is 27.49%."
+        }
+      },
+      {
+        "cancellations": {
+          "question": "Which hotel type has a higher cancellation rate?",
+          "answer": "City hotels have a higher cancellation rate (30.04%) than resort hotels (23.48%)."
+        }
+      },
+      {
+        "cancellations": {
+          "question": "During which month in 2017 was the cancellation rate highest?",
+          "answer": "August 2017 had the highest cancellation rate at 36.75%."
+        }
+      },
+      {
+        "cancellations": {
+          "question": "How does lead time affect cancellation rates?",
+          "answer": "Long-term bookings (lead time > 30 days) have the highest cancellation rate at 34.76%, while last-minute bookings (<7 days) have the lowest at 8.13%."
+        }
+      },
+      {
+        "cancellations": {
+          "question": "What is the cancellation rate for non-refundable deposit bookings?",
+          "answer": "Non-refundable deposit bookings have a cancellation rate of 94.7%."
+        }
+      },
+      {
+        "geo": {
+          "question": "Which country had the highest number of bookings?",
+          "answer": "Portugal had the highest number of bookings with 27,453."
+        }
+      },
+      {
+        "geo": {
+          "question": "What percentage of total bookings came from the United Kingdom?",
+          "answer": "The United Kingdom accounted for 11.94% of total bookings."
+        }
+      },
+      {
+        "geo": {
+          "question": "Which country generated the most revenue?",
+          "answer": "Portugal generated the most revenue with $9,082,328.96."
+        }
+      },
+      {
+        "geo": {
+          "question": "Name one country with a 100% cancellation rate.",
+          "answer": "Jersey (JEY) had a 100% cancellation rate."
+        }
+      },
+      {
+        "geo": {
+          "question": "During which months did bookings from Portugal peak?",
+          "answer": "Bookings from Portugal peaked in July and August."
+        }
+      },
+      {
+        "lead_time": {
+          "question": "What is the overall average lead time for bookings?",
+          "answer": "The overall average lead time is 79.89 days."
+        }
+      },
+      {
+        "lead_time": {
+          "question": "Which lead time range had the highest number of bookings?",
+          "answer": "The 1 to 3 months range had the highest number of bookings with 22,744 bookings."
+        }
+      },
+      {
+        "lead_time": {
+          "question": "What percentage of bookings are made less than a week before arrival?",
+          "answer": "19.58% of bookings are made less than a week before arrival."
+        }
+      },
+      {
+        "lead_time": {
+          "question": "Which hotel type has a longer average lead time?",
+          "answer": "Resort hotels have a longer average lead time of 83.37 days compared to city hotels at 77.68 days."
+        }
+      },
+      {
+        "lead_time": {
+          "question": "How does lead time impact cancellation rates?",
+          "answer": "Longer lead times have higher cancellation rates (34.76% for bookings over 30 days), while last-minute bookings have the lowest cancellation rate at 8.13%."
+        }
+      },
+      {
+        "others": {
+          "question": "How does the number of special requests affect cancellation rates?",
+          "answer": "Guests with more special requests are less likely to cancel. For example, the cancellation rate drops from 33.20% (0 requests) to 5.56% (5 requests)."
+        }
+      },
+      {
+        "others": {
+          "question": "What is the cancellation rate for guests with no special requests?",
+          "answer": "Guests with no special requests have a cancellation rate of 33.20%."
+        }
+      },
+      {
+        "others": {
+          "question": "Which deposit type has the highest cancellation rate?",
+          "answer": "Non-refundable deposits have the highest cancellation rate at 94.70%."
+        }
+      },
+      {
+        "others": {
+          "question": "What is the cancellation rate for refundable deposit bookings?",
+          "answer": "Refundable deposit bookings have a cancellation rate of 24.30%."
+        }
+      },
+      {
+        "others": {
+          "question": "How does lead time influence the likelihood of cancellations?",
+          "answer": "Longer lead times are associated with higher cancellation rates. Bookings made more than 30 days in advance have a 34.76% cancellation rate, while last-minute bookings (<7 days) have only 8.13%."
+        }
+      }
+  ]
+  
