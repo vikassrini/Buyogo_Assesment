@@ -97,7 +97,7 @@ python db_setup/inserter.py
 ### 6. Add Open AI Key to line 22 in app.py
 
 ```app.py
-"set_openai_api_key_for_evaluation"
+os.environ["OPENAI_API_KEY"] ="set_openai_api_key_for_evaluation"
 ```
 ### 7. Start the API Server
 
