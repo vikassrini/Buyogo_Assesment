@@ -18,7 +18,7 @@ hotel-booking-api/
 │   └── insert.py
 │   └── queries.sql
 ├── samples/                    # Sample queries and cached responses for reference
-|   └── sample_caching_respones/
+|   └── sample_caching_responses/
 │   └── samples_queries.json    # Sample queries for reference
 ├── app.py                      # FastAPI app entry point
 ├── analytics_cache.py          # Caching analytics results
