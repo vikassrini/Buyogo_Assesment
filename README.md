@@ -17,12 +17,14 @@ hotel-booking-api/
 ├── db_setup/                   # Scripts to initialize and populate the database
 │   └── insert.py
 │   └── queries.sql
+├── samples/                    # Sample queries and cached responses for reference
+|   └── sample_cached_respones/
+│   └── samples_queries.json    # Sample queries for reference
 ├── app.py                      # FastAPI app entry point
 ├── analytics_cache.py          # Caching analytics results
 ├── db_utils.py                 # Utility functions for DB operations
 ├── docker-compose.yaml         # Services: Weaviate + Postgres
 ├── requirements.txt            # Python dependencies
-├── samples_queries.json        # Sample queries for reference
 └── .gitattributes              # Git config
 ```
 
@@ -127,8 +129,8 @@ Import the provided [**Postman collection**](https://github.com/vikassrini/Buyog
 ---
 
 ## NOTE:
-- Sample test queries and their expected results are available in the samples directory.
+- [Sample test queries](https://github.com/vikassrini/Buyogo_Assesment/blob/main/samples/samples_queries.json) and their expected results are available in the samples directory.
 
-- Within this directory, the sample_caching_responses subfolder contains cached responses from each API, demonstrating how the implemented caching mechanism functions.
+- Within this directory, the [sample_caching_responses](https://github.com/vikassrini/Buyogo_Assesment/tree/main/samples/sample_caching_responses) subfolder contains cached responses from each API, demonstrating how the implemented caching mechanism functions.
 
-- A brief report outlining the implementation decisions and challenges faced can be found here: Implementation Report.
+- A brief report outlining the implementation decisions and challenges faced can be found here: [Implementation Report](https://github.com/vikassrini/Buyogo_Assesment/blob/main/Implementation%20Report.pdf).
