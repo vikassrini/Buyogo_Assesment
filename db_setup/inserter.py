@@ -15,9 +15,9 @@ df['arrival_date'] = pd.to_datetime(df['arrival_date'])
 # --- Step 2: Database Connection ---
 conn = psycopg2.connect(
     host="localhost",
-    database="testers",
+    database="hotel_data",
     user="postgres",
-    password="vikas"
+    password="postgres"
 )
 cursor = conn.cursor()
 

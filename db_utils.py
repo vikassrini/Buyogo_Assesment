@@ -1,7 +1,7 @@
 
 from sqlalchemy import create_engine, text
 
-DATABASE_URL = "postgresql://postgres:vikas@localhost:5432/hotel_data"
+DATABASE_URL = "postgresql://postgres:postgres@localhost:5432/hotel_data"
 engine = create_engine(DATABASE_URL)
 
 def get_db_last_updated_timestamp() -> float:
