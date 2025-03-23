@@ -109,10 +109,8 @@ The FastAPI app will now be running at `http://localhost:8000`.
 
 ### 8. Test the APIs
 
-Import the provided **Postman collection** and test the endpoints:
-```json
-https://github.com/vikassrini/Buyogo_Assesment/blob/main/Buyogo.postman_collection.json
-```
+Import the provided [**Postman collection**](https://github.com/vikassrini/Buyogo_Assesment/blob/main/Buyogo.postman_collection.json) and test the endpoints:
+
 - Make sure to set the base URL to `http://localhost:8000`.
 - You can also use the Swagger UI at `/docs`.
 
@@ -125,3 +123,12 @@ https://github.com/vikassrini/Buyogo_Assesment/blob/main/Buyogo.postman_collecti
 - **Weaviate** for vector search
 - **Ollama** with local LLMs (`nomic-embed-text`, `llama3.2`)
 - **Docker Compose** for orchestration
+
+---
+
+## NOTE:
+- Sample test queries and their expected results are available in the samples directory.
+
+- Within this directory, the sample_caching_responses subfolder contains cached responses from each API, demonstrating how the implemented caching mechanism functions.
+
+- A brief report outlining the implementation decisions and challenges faced can be found here: Implementation Report.
