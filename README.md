@@ -96,6 +96,8 @@ db_setup/queries.sql
 ```bash
 python db_setup/inserter.py
 ```
+
+If you encounter an error with psycopg2, try installing psycopg2-binary instead.
 ### 6. Add Open AI Key to line 22 in app.py
 
 ```app.py
